@@ -1,0 +1,50 @@
+body
+{
+    background-color: white;
+	font-family:Arial;
+	padding:0px;
+	margin:0px;
+	width:100%;
+}
+header
+{
+	margin:0px;
+	height:auto;
+	width:100%;
+	position: fixed;
+	top:0;
+	z-index: 200;
+	background-color: cadetblue;
+    	border-bottom-color: grey;
+    	border-bottom-width: 0.5px;
+    	border-bottom-style: solid;
+}
+#buttonContainer
+{
+    width:100%;
+    
+    
+}
+.button
+{
+    width:70%;
+    padding:40px 80px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: 50px;
+    background-color: cadetblue;
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 700;
+    
+}
+#title
+{
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 30px;
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 700;
+    
+}

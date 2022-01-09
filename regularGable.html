@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel = "stylesheet" href = "CSS-Style/regularGableStyle.css">
+</head>
+<body>
+<header>	
+</header>
+<div id = "buttonContainer">
+    <div id = "home_button_container">
+        <a href = "index.html">
+            <button id = "home_button">Home</button>
+        </a>
+    </div>
+    <div id = "title">Regular Gable</div>
+    <div id = "user_input_container">
+        <img src = "images/gable_roof/framehome3.png" id = "pic_ridge">
+        <div class = "labelOne">Please enter the WIDTH of the gable?</div>
+        <div class = "feet_inch_container">
+            <div class  = "feet_container">
+                <label class = "label_feet">Feet</label>
+                <input type = "number" min = "0" id  = "user_width_feet"class = "input_one_ft" value = "0.0"  >
+            </div>
+            <div class  = "inches_container">
+                <label class = "label_inches">Inches</label>
+                <input type = "number" min = "0"  id  = "user_width_inches"class = "input_one_inches" value = "0.0" >
+                <select id = "dropdown_inches_width">
+                    <option value = "0">0</option>
+                    <option value = "1/8">1/8</option>
+                    <option value = "1/4">1/4</option>
+                    <option value = "3/8">3/8</option>
+                    <option value = "1/2">1/2</option>
+                    <option value = "5/8">5/8</option>
+                    <option value = "3/4">3/4</option>
+                    <option value = "7/8">7/8</option>
+                
+                </select>
+            </div>
+            
+        </div>
+        
+    </div>
+    <div id = "user_input_container">
+        <img src = "images/gable_roof/ridge_width_example.png" id = "pic_ridge">
+        <div class = "labelOne">Please enter the thickness of the ridge board, in inches?</div>
+        <div class = "ridge_inch_container">
+            <label class = "label_inches_ridge">Inches</label>
+            <input type = "number" min = "0"  id  = "user_ridge_inches"class = "input_one_ridge" value = "0.0" >
+            <select id = "dropdown_inches_ridge">
+                    <option value = "0">0</option>
+                    <option value = "1/8">1/8</option>
+                    <option value = "1/4">1/4</option>
+                    <option value = "3/8">3/8</option>
+                    <option value = "1/2">1/2</option>
+                    <option value = "5/8">5/8</option>
+                    <option value = "3/4">3/4</option>
+                    <option value = "7/8">7/8</option>
+                
+            </select>
+        </div>
+        
+    </div>
+    <div id = "user_input_container">
+        <img src = "images/gable_roof/pitch_diagram2.png" id = "pic_ridge">
+        <div class = "labelOne">Please enter the pitch of the roof?</div>
+        <div id = "pitch_container">
+            <input type = "number" min = "0"  id  = "user_pitch_top" value = "0.0">
+            <div id = "black_line"></div>
+            <input type = "number" min = "0"  id  = "user_pitch_bottom" value = "12.0">
+        </div>
+    </div>
+    <div id = "button_container">
+        <div id ="text_top_button">Press button below to get rafter length and height</div>
+        <button id = "button_cal_roof" onclick="buttonCalculate()">Calculate Roof</button>
+    </div>
+    
+    <div id = "result_pic_container">
+        <img src = "images/gable_roof/rafter_diagram3.png" id = "pic_one">
+         <img src = "images/gable_roof/ridge_width.png" id = "pic_two">
+    </div>
+    <div  id = "result_container">
+        <div id = "toggle_button_container">
+            <button id = "button_inches" onclick="buttonInches()">Inches</button>
+            <button  id = "button_feet" onclick="buttonFeet()">Feet</button>
+        </div>
+        <div>Rafter length: </div>
+        
+        <input type = "text" id  = "rafter_length_result_feet_inches" class = "result_inputs" value = "0.0" readonly >
+        <div>Roof Height(from plate to top of ridge board): </div>
+        
+        <input type = "text" id  = "roof_height_result_feet_inches" class = "result_inputs" value = "0.0" readonly >
+    
+    </div>
+    
+</div>  
+</body>
+<script type="text/javascript" src="JS-Script/regularGableScript.js"></script>
+</html>
