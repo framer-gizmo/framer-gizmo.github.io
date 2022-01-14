@@ -1,0 +1,295 @@
+body
+{
+    background-color: white;
+	font-family:Arial;
+	padding:0px;
+	margin:0px;
+	width:100%;
+}
+header
+{
+	margin:0px;
+	height:auto;
+	width:100%;
+	position: fixed;
+	top:0;
+	z-index: 200;
+	background-color: cadetblue;
+    	border-bottom-color: grey;
+    	border-bottom-width: 0.5px;
+    	border-bottom-style: solid;
+}
+#wholeContainer
+{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: cadetblue;
+}
+.userInputContainer
+{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+    
+}
+#titleContainer
+{
+     width:100%;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom:20px;
+}
+.button
+{
+    width:70%;
+    padding:40px 80px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: 50px;
+    background-color: cadetblue;
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 700;
+    
+}
+#title
+{
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 30px;
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 700;
+    
+}
+#home_button_container
+{
+    width:100%;
+    text-align: center;
+}
+#home_button
+{
+    width:30%;
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;   
+
+    padding: 8px;
+    background-color: cadetblue;
+}
+.feet_inch_container
+{
+    width:100%;
+    display: inline-block;
+    
+}
+.feet_container
+{
+    width:48%;
+    display: inline-block;
+    float: left;
+}
+.inches_container
+{
+    width:48%;
+    display: inline-block;
+    float: right;
+}
+.label_feet
+{
+    width:30%;
+    float:right;
+    text-align: center;
+     font-size: 2.5vw;
+
+}
+.label_inches
+{
+    width:30%;
+    float:right;
+    text-align: center;
+    font-size: 2.5vw;
+
+}
+.input_one_ft
+{
+    font-size: 2.5vw;
+    
+    
+    width:68%;
+    text-align: center;
+    float:left;
+    padding-top:5px;
+    padding-bottom: 5px;
+   
+}
+.input_one_inches
+{
+    font-size: 2.5vw;
+  
+   
+    width:30%;
+    text-align: center;
+    float:left;
+    padding-top:5px;
+    padding-bottom: 5px;
+   
+}
+.dropdown_inches_width
+{
+    width:25%;
+    font-size: 2.5vw;
+    text-align: center;
+}
+#dropdown_operator
+{
+    width:25%;
+    font-size: 4vw;
+    text-align: center;
+}
+#operatorContainer
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#bottom_space_in
+{
+    width:100%;
+    height: 60px;
+}
+#bottom_space
+{
+    width:100%;
+    height: 80px;
+}
+#button_container
+{
+    width:100%;
+    text-align: center;
+}
+#calc_button
+{
+    width:40%;
+    padding:20px;
+    font-size: 3vw;
+    background-color: cadetblue;
+    margin-top: 0px;
+    font-weight: 800;
+}
+#instructions
+{
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+#instructions_result
+{
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+#instructions_divide
+{
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+    font-size: 2.5vw;
+    font-weight: 700;
+    display: none;
+}
+#result_container
+{
+    width:85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding:20px;
+    text-align: center;
+    background-color: cadetblue
+    
+    
+}
+#result_title
+{
+    font-size: 4.5vw;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+#result
+{
+    
+    
+}
+.result_inputs
+{
+    font-size: 4vw;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+#userInputThreeContainer
+{
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+.input_three
+{
+    font-size: 4vw;
+    width:60%;
+    text-align: center;
+    
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+#toggle_button_container
+{
+   width: 50%;
+    background-color: aqua;
+   margin-left: auto;
+   margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#button_inches
+{
+    width:50%;
+    float: right;
+    background-color: grey;
+    font-size: 3vw;
+}
+#button_feet
+{
+    width:50%;
+    float:left;
+    background-color: white;
+    font-size: 3vw;
+}
