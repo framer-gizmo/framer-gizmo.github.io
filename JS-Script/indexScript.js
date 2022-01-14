@@ -6,3 +6,7 @@ function buttonOne() {
     "use strict";
     window.location.href = "regularGable.html";
 }
+function buttonCalc() {
+    "use strict";
+    window.location.href = "calculatorFeetInches.html";
+}
