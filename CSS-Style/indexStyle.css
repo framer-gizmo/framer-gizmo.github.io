@@ -48,3 +48,15 @@ header
     font-weight: 700;
     
 }
+#logo_container
+{
+    width: 100%;
+    text-align: center;
+}
+#logo
+{
+    width:20%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
