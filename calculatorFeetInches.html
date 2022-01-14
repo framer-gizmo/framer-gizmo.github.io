@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel = "stylesheet" href = "CSS-Style/calculatorFeetInchesStyle.css">
+</head>
+<body>
+<header>	
+</header>
+    <div id = "home_button_container">
+        <a href = "index.html">
+            <button id = "home_button">Home</button>
+        </a>
+    </div>
+    
+<div id = "wholeContainer">
+    <div id = "titleContainer">
+        Calculator<br>For Feet and Inches
+    </div>
+    <div id =  "userInputOneContainer" class = "userInputContainer">
+            <div class = "feet_inch_container">
+            <div class  = "feet_container">
+                <label class = "label_feet">Feet</label>
+                <input type = "number" min = "0" id  = "user_input_one_feet"class = "input_one_ft" value = "0.0"  >
+            </div>
+            <div class  = "inches_container">
+                <label class = "label_inches">Inches</label>
+                <input type = "number" min = "0"  id  = "user_input_one_inches"class = "input_one_inches" value = "0.0" >
+                <select id = "dropdown_user_input_one" class = "dropdown_inches_width">
+                    <option value = "0">0</option>
+                    <option value = "1/8">1/8</option>
+                    <option value = "1/4">1/4</option>
+                    <option value = "3/8">3/8</option>
+                    <option value = "1/2">1/2</option>
+                    <option value = "5/8">5/8</option>
+                    <option value = "3/4">3/4</option>
+                    <option value = "7/8">7/8</option>
+                
+                </select>
+            </div>
+            
+        </div>
+    </div>
+    <div id = "operatorContainer">
+            <select id = "dropdown_operator">
+                    <option value = "+">+</option>
+                    <option value = "-">-</option>
+                    <option value = "/">/</option>
+                    <option value = "*">*</option>
+            </select>
+    </div>
+    <div id =  "userInputTwoContainer" class = "userInputContainer">
+            <div class = "feet_inch_container">
+            <div class  = "feet_container">
+                <label class = "label_feet">Feet</label>
+                <input type = "number" min = "0" id  = "user_input_two_feet"class = "input_one_ft" value = "0.0"  >
+            </div>
+            <div class  = "inches_container">
+                <label class = "label_inches">Inches</label>
+                <input type = "number" min = "0"  id  = "user_input_two_inches"class = "input_one_inches" value = "0.0" >
+                <select id = "dropdown_user_input_two" class = "dropdown_inches_width">
+                    <option value = "0">0</option>
+                    <option value = "1/8">1/8</option>
+                    <option value = "1/4">1/4</option>
+                    <option value = "3/8">3/8</option>
+                    <option value = "1/2">1/2</option>
+                    <option value = "5/8">5/8</option>
+                    <option value = "3/4">3/4</option>
+                    <option value = "7/8">7/8</option>
+                
+                </select>
+            </div>
+            
+        </div>
+    </div>
+    <div id = "userInputThreeContainer">
+            <input type = "number" min = "0" id  = "user_input_three"class = "input_three" value = "0.0"  >
+            <div id = "instructions_divide">When dividing, if you want to divide by a measurement, use inches</div>
+            
+            
+    </div>
+    
+
+    <div id = "bottom_space_in"></div>
+</div>
+    <div id = "button_container">
+        <div id = "instructions">Press button below to get result</div>
+        <button id = "calc_button" onclick="getCalc()">Calculate</button>
+    </div>
+    <div id = "result_container">
+        <div id = "result_title">Results</div>
+        <div id = "toggle_button_container">
+            <button id = "button_inches" onclick="buttonInches()">Inches</button>
+            <button  id = "button_feet" onclick="buttonFeet()">Feet</button>
+        </div>
+        <input type = "text" id  = "result" class = "result_inputs" value = "" readonly >
+        <div id = "instructions_result">Below is the closest fraction</div>
+        <input type = "text" id  = "result_with_fraction" class = "result_inputs" value = "" readonly >
+    </div>
+<div id = "bottom_space"></div>
+</body>
+<script type="text/javascript" src="JS-Script/calculatorFeetInchesScript.js"></script>
+</html>
